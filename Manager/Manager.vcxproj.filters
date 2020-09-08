@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\h">
+      <UniqueIdentifier>{06d42df6-f100-40d1-ab14-ef57f8b64ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QRCode">
+      <UniqueIdentifier>{d828173e-8560-427c-a332-e497b8b02715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="QRCode\QRCodeDec">
+      <UniqueIdentifier>{54fec87e-ef88-4fae-ac1f-ba80aea5172b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_StructDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AdoWorker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BCMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinPlusPlus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAdd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStatusAdd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStatusEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStatusEdit1Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStatusDel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTotal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\bitstream.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\config.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\mask.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\mmask.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\mqrspec.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\qrencode.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\qrencode_inner.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\qrinput.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\qrspec.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\rscode.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\split.h">
+      <Filter>头文件\h</Filter>
+    </ClInclude>
+    <ClInclude Include="EwmCreate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\ProductQRCode.h">
+      <Filter>QRCode</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QR_Encode.h">
+      <Filter>QRCode</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\strcoding.h">
+      <Filter>QRCode</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\AlignmentPattern.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\Axis.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\Constant.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\ContentDecoder.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\FinderPattern.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\Galois.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\Line.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\Point.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\QRcodeImage.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\RsDecode.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="QRCode\QRDecode\SamplingGrid.h">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClInclude>
+    <ClInclude Include="EwmLoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdoWorker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserAdd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStatusAdd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStatusEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStatusEdit1Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStatusDel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTotal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EwmCreate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\ProductQRCode.cpp">
+      <Filter>QRCode</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QR_Encode.cpp">
+      <Filter>QRCode</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\strcoding.cpp">
+      <Filter>QRCode</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\AlignmentPattern.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\Axis.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\Constant.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\ContentDecoder.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\FinderPattern.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\Galois.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\Line.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\Point.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\QRcodeImage.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\RsDecode.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCode\QRDecode\SamplingGrid.cpp">
+      <Filter>QRCode\QRCodeDec</Filter>
+    </ClCompile>
+    <ClCompile Include="EwmLoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Manager.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Manager.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Manager.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\VC++ MFC银行管理模拟系统(Access)\BankManager\res\Cancel.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\VC++ MFC银行管理模拟系统(Access)\BankManager\res\Keymanager1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\VC++ MFC银行管理模拟系统(Access)\BankManager\res\Keymanager2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

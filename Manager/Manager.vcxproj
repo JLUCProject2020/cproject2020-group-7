@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{66E66136-2143-4A3B-8FC4-DB7B0F8F2C26}</ProjectGuid>
+    <RootNamespace>Manager</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>lib\SkinPlusPlusDLL.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdoWorker.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="EwmCreate.h" />
+    <ClInclude Include="EwmLoad.h" />
+    <ClInclude Include="LibQREncode\bitstream.h" />
+    <ClInclude Include="LibQREncode\config.h" />
+    <ClInclude Include="LibQREncode\mask.h" />
+    <ClInclude Include="LibQREncode\mmask.h" />
+    <ClInclude Include="LibQREncode\mqrspec.h" />
+    <ClInclude Include="LibQREncode\qrencode.h" />
+    <ClInclude Include="LibQREncode\qrencode_inner.h" />
+    <ClInclude Include="LibQREncode\qrinput.h" />
+    <ClInclude Include="LibQREncode\qrspec.h" />
+    <ClInclude Include="LibQREncode\rscode.h" />
+    <ClInclude Include="LibQREncode\split.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="ManagerDlg.h" />
+    <ClInclude Include="QRCode\ProductQRCode.h" />
+    <ClInclude Include="QRCode\QRDecode\AlignmentPattern.h" />
+    <ClInclude Include="QRCode\QRDecode\Axis.h" />
+    <ClInclude Include="QRCode\QRDecode\Constant.h" />
+    <ClInclude Include="QRCode\QRDecode\ContentDecoder.h" />
+    <ClInclude Include="QRCode\QRDecode\FinderPattern.h" />
+    <ClInclude Include="QRCode\QRDecode\Galois.h" />
+    <ClInclude Include="QRCode\QRDecode\Line.h" />
+    <ClInclude Include="QRCode\QRDecode\Point.h" />
+    <ClInclude Include="QRCode\QRDecode\QRcodeImage.h" />
+    <ClInclude Include="QRCode\QRDecode\RsDecode.h" />
+    <ClInclude Include="QRCode\QRDecode\SamplingGrid.h" />
+    <ClInclude Include="QRCode\QR_Encode.h" />
+    <ClInclude Include="QRCode\strcoding.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SkinPlusPlus.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UserAdd.h" />
+    <ClInclude Include="UserDel.h" />
+    <ClInclude Include="UserEdit.h" />
+    <ClInclude Include="UserManager.h" />
+    <ClInclude Include="UserQuery.h" />
+    <ClInclude Include="UserStatusAdd.h" />
+    <ClInclude Include="UserStatusDel.h" />
+    <ClInclude Include="UserStatusEdit.h" />
+    <ClInclude Include="UserStatusEdit1Dlg.h" />
+    <ClInclude Include="UserTotal.h" />
+    <ClInclude Include="_StructDefine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdoWorker.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="EwmCreate.cpp" />
+    <ClCompile Include="EwmLoad.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="ManagerDlg.cpp" />
+    <ClCompile Include="QRCode\ProductQRCode.cpp" />
+    <ClCompile Include="QRCode\QRDecode\AlignmentPattern.cpp" />
+    <ClCompile Include="QRCode\QRDecode\Axis.cpp" />
+    <ClCompile Include="QRCode\QRDecode\Constant.cpp" />
+    <ClCompile Include="QRCode\QRDecode\ContentDecoder.cpp" />
+    <ClCompile Include="QRCode\QRDecode\FinderPattern.cpp" />
+    <ClCompile Include="QRCode\QRDecode\Galois.cpp" />
+    <ClCompile Include="QRCode\QRDecode\Line.cpp" />
+    <ClCompile Include="QRCode\QRDecode\Point.cpp" />
+    <ClCompile Include="QRCode\QRDecode\QRcodeImage.cpp" />
+    <ClCompile Include="QRCode\QRDecode\RsDecode.cpp" />
+    <ClCompile Include="QRCode\QRDecode\SamplingGrid.cpp" />
+    <ClCompile Include="QRCode\QR_Encode.cpp" />
+    <ClCompile Include="QRCode\strcoding.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UserAdd.cpp" />
+    <ClCompile Include="UserDel.cpp" />
+    <ClCompile Include="UserEdit.cpp" />
+    <ClCompile Include="UserManager.cpp" />
+    <ClCompile Include="UserQuery.cpp" />
+    <ClCompile Include="UserStatusAdd.cpp" />
+    <ClCompile Include="UserStatusDel.cpp" />
+    <ClCompile Include="UserStatusEdit.cpp" />
+    <ClCompile Include="UserStatusEdit1Dlg.cpp" />
+    <ClCompile Include="UserTotal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Manager.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Manager.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\VC++ MFC银行管理模拟系统(Access)\BankManager\res\Cancel.ico" />
+    <Image Include="..\..\VC++ MFC银行管理模拟系统(Access)\BankManager\res\Keymanager1.ico" />
+    <Image Include="..\..\VC++ MFC银行管理模拟系统(Access)\BankManager\res\Keymanager2.ico" />
+    <Image Include="res\Manager.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Manager.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
